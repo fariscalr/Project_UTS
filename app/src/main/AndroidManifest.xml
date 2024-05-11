@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProjectUTS"
+        tools:targetApi="31">
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Komentar"
+            android:exported="false" />
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/googleApi" />
+
+        <activity
+            android:name=".MapsWisata"
+            android:exported="false"
+            android:label="@string/title_activity_maps_wisata" />
+        <activity
+            android:name=".MapsTirta"
+            android:exported="false"
+            android:label="@string/title_activity_maps_tirta" />
+        <activity
+            android:name=".MapsTerjun"
+            android:exported="false"
+            android:label="@string/title_activity_maps_terjun" />
+        <activity
+            android:name=".MapsTegalalang"
+            android:exported="false"
+            android:label="@string/title_activity_maps_tegalalang" />
+        <activity
+            android:name=".MapsRumah"
+            android:exported="false"
+            android:label="@string/title_activity_maps_rumah" />
+        <activity
+            android:name=".MapsRagunan"
+            android:exported="false"
+            android:label="@string/title_activity_maps_ragunan" />
+        <activity
+            android:name=".MapsPanjang"
+            android:exported="false"
+            android:label="@string/title_activity_maps_panjang" />
+        <activity
+            android:name=".MapsMaribaya"
+            android:exported="false"
+            android:label="@string/title_activity_maps_maribaya" />
+        <activity
+            android:name=".MapsMalabar"
+            android:exported="false"
+            android:label="@string/title_activity_maps_malabar" />
+        <activity
+            android:name=".MapsKebun"
+            android:exported="false"
+            android:label="@string/title_activity_maps_kebun" />
+        <activity
+            android:name=".MapsKapuk"
+            android:exported="false"
+            android:label="@string/title_activity_maps_kapuk" />
+        <activity
+            android:name=".MapsGunung"
+            android:exported="false"
+            android:label="@string/title_activity_maps_gunung" />
+        <activity
+            android:name=".MapsCimory"
+            android:exported="false"
+            android:label="@string/title_activity_maps_cimory" />
+        <activity
+            android:name=".MapsCimahi"
+            android:exported="false"
+            android:label="@string/title_activity_maps_cimahi" />
+        <activity
+            android:name=".MapsCamp"
+            android:exported="false"
+            android:label="@string/title_activity_maps_camp" />
+        <activity
+            android:name=".MapsBukit"
+            android:exported="false"
+            android:label="@string/title_activity_maps_bukit" />
+        <activity
+            android:name=".MapsBenteng"
+            android:exported="false"
+            android:label="@string/title_activity_maps_benteng" />
+        <activity
+            android:name=".MapsAncol"
+            android:exported="false"
+            android:label="@string/title_activity_maps_ancol" />
+        <activity
+            android:name=".Terjun"
+            android:exported="false" />
+        <activity
+            android:name=".Wisata"
+            android:exported="false" />
+        <activity
+            android:name=".Bukit"
+            android:exported="false" />
+        <activity
+            android:name=".Ancol"
+            android:exported="false" />
+        <activity
+            android:name=".Ragunan"
+            android:exported="false" />
+        <activity
+            android:name=".Kapuk"
+            android:exported="false" />
+        <activity
+            android:name=".Camp"
+            android:exported="false" />
+        <activity
+            android:name=".Cimory"
+            android:exported="false" />
+        <activity
+            android:name=".Kebun"
+            android:exported="false" />
+        <activity
+            android:name=".Panjang"
+            android:exported="false" />
+        <activity
+            android:name=".Benteng"
+            android:exported="false" />
+        <activity
+            android:name=".Rumah"
+            android:exported="false" />
+        <activity
+            android:name=".Malabar"
+            android:exported="false" />
+        <activity
+            android:name=".Cimahi"
+            android:exported="false" />
+        <activity
+            android:name=".Maribaya"
+            android:exported="false" />
+        <activity
+            android:name=".Gunung"
+            android:exported="false" />
+        <activity
+            android:name=".Tegalalang"
+            android:exported="false" />
+        <activity
+            android:name=".Tirta"
+            android:exported="false" />
+        <activity
+            android:name=".Bogor"
+            android:exported="false" />
+        <activity
+            android:name=".Jakarta"
+            android:exported="false" />
+        <activity
+            android:name=".Bandung"
+            android:exported="false" />
+        <activity
+            android:name=".Bengkulu"
+            android:exported="false" />
+        <activity
+            android:name=".Lombok"
+            android:exported="false" />
+        <activity
+            android:name=".Bali"
+            android:exported="false" />
+        <activity
+            android:name=".MenuUtama"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
